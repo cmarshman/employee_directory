@@ -12,14 +12,66 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/employee.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./frontEndTest.css"/>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <title>Employee Directory</title>
   </head>
   <body>
     <noscript>This app runs on JavaScript, so in the eternal words of the great Samual L. Jackson, "You need to enable JavaScript Motha-Fucker."</noscript>
     <div>
-
+        <section class="hero is-medium" >
+            <div class="hero-body" >
+              <div class="container has-text-centered" >
+                <h1 class="title" id="hero">
+                  Skipper Pets, Inc
+                </h1>
+                <h2 class="subtitle" id="hero">
+                  Employee Directory
+                </h2>
+              </div>
+            </div>
+          </section>
     </div>
+    <br>
+    <br>
+    <div class="tile is-ancestor">
+        <div class="tile is vertical is-11" id="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-light">
+            <div class="field" id="search_employee">
+                <p class="control has-icons-left">
+                <input class="input" type="text" placeholder="Search by Emplolyee Name">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user-circle"></i>
+                </span> 
+            </p>
+            </div>
+            <br>
+            <br>
+            <div class="columns">
+                <div class="column is-one-quarter">
+                    <article class="tile is-child notification is-light">
+                        <!-- name -->
+                        <p class="title"></p>
+                        <!-- position -->
+                        <p class="subtitle"></p>
+                        <img id="head_shot" src="" atl="head_shot">
+                        <p class="subtitle">Information</p>
+                        <!-- phone_number -->
+                        <p></p>
+                        <!-- email -->
+                        <p></p>
+                        <!-- department -->
+                        <p></p>
+                    </article>
+                </div>
+
+            </div>
+            </article>
+          </div>
+        </div>
+    </div>
+
 
   </body>
 </html>
