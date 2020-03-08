@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import API from '../utils/API';
+import React from 'react';
+import Header from '../components/header';
+import Input from '../components/input';
 
 
 function Directory() {
     return(
-
+    <>
+        <Header/>
+        <Input/>
+    </>
     );
 }
 

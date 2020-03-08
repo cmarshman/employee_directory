@@ -9,3 +9,7 @@
 #tile{
     margin: 0 auto;
 }
+
+#block {
+    background-color: white!important;
+}
