@@ -7,8 +7,8 @@
     "location": "Charlotte, NC",
     "contact_email": "meggie@walkskipper.com",
     "contact_number": "555-554-2345",
-    "photo": "../../public/images/hoomans/meggie.png",
-    "position": "CEO"
+    "photo": "../images/hoomans/meggie.png",
+    "position": "Chief Executive Officer"
     },
     {
     "id": 2,
@@ -128,7 +128,7 @@
     "location": "Charlotte, NC",
     "contact_email": "amanda@walkskipper.com",
     "contact_number": "555-554-2345",
-    "photo": "",
+    "photo": "../images/hoomans/amanda.png",
     "position": "Home Services Assistant Manager"
     },
     {
