@@ -10,8 +10,8 @@ function Card() {
             <br />
             <div className="columns is-multiline">
             {employees.map(item => (
-                <div className="column is-one-third">
-                <article key={item.id} className="tile is-child notification has-text-centered" id="block">
+                <div key={item.id} className="column is-one-third">
+                <article  className="tile is-child notification has-text-centered" id="block">
                         <p className="title" id="name">{item.name}</p>
                         <p className="subtitle" id="position">{item.position}</p>
                         <p className="" id="start_date">{item.start_date}</p>
