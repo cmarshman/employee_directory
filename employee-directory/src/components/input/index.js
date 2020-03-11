@@ -15,7 +15,7 @@ function Input(){
                 <span className="icon is-small is-left">
                     <i className="fas fa-user-circle"></i>
                 </span> 
-            </p>
+                </p>
             </div>
             <Card />
             </article>
