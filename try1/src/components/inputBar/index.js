@@ -1,7 +1,10 @@
 import React from 'react';
 import './style.css';
+import Employees from '../../utils/employeeList.json';
 
 function InputBar(props) {
+    
+
     return (
         <p className="control has-icons-left">
             <input 
