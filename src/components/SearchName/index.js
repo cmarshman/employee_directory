@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import "../styles/SearchName.css";
-import DataAreaContext from "../utils/DataAreaContext";
+import "./style.css";
+import DataAreaContext from "../../utils/DataAreaContext";
 
 const SearchName = () => {
   const context = useContext(DataAreaContext);
